@@ -48,6 +48,6 @@ File.open("#{apps_file}", "r") do |file_handle|
 		app = recipe.split()[0]
 		file = recipe.split()[1]
 		puts "Downloading #{app}..."
-		`cd #{download_location} && curl -O #{file}`
+		`cd #{download_location} && curl -silent -O #{file}`
 	end
 end
