@@ -43,7 +43,7 @@ puts "Linking dotfiles"
 `cd #{dotfiles_location} && rake install && cd -`
 
 #apps
-File.open("#{apps_files}", "r") do |file_handle|
+File.open("#{apps_file}", "r") do |file_handle|
 	file_handle.each do |recipe|
 		app = recipe.split()[0]
 		file = recipe.split()[1]
