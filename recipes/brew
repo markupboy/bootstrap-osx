@@ -25,3 +25,5 @@ pkg-config
 redis
 sqlite
 wget
+postgresql
+mysql

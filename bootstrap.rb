@@ -19,12 +19,7 @@ unless brew_file == ""
       puts "Installing #{formula}"
       `brew install #{formula}`
     end
-  end 
-  puts " _______________________________________________________"
-  puts "|                                                       |"
-  puts "| Databases have been left out, please install manually |"
-  puts "|                                                       |"
-  puts " ------------------------------------------------------- "
+  end
 end 
 
 #oh-my-zsh
