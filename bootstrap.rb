@@ -1,3 +1,4 @@
+#!/usr/bin/ruby
 #config
 
 ohmyzsh_location = "$HOME/Dropbox/Shared\\ Libraries/oh-my-zsh"
