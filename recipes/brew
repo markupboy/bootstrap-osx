@@ -1,4 +1,5 @@
 ack
+grc
 automake
 gettext
 libtool
@@ -27,3 +28,4 @@ sqlite
 wget
 postgresql
 mysql
+phantomjs
